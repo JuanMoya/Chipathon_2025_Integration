@@ -47,3 +47,18 @@ It's important to note that the pin distribution will change based on the integr
 - [LTC1](https://github.com/Azeem-Abbas/DC23-LTC1/tree/main)
 - [LTC2](https://github.com/akiles-esta-usado/DC23-LTC2/tree/f6358b6aff1b4526a014195b640335f1def6f0c5/padframe)
 - [LTC3 - Bracolin](https://github.com/gabrielmaranhao/Bracolin/tree/main)
+
+Follows a description of the main pin cells used in Bracolin and some examples for pin connection.
+
+Configuration for each of the pin cells provided for GlobalFoundries GF180MCU PDK are [here](https://gf180mcu-pdk.readthedocs.io/en/latest/IPs/IO/gf180mcu_fd_io/functional.html). All the I/O cells include ESD protections.
+
+Some of the main cells included in Bracolin are:
+gf180mcu_fd_io__dvdd
+gf180mcu_fd_io__dvss
+gf180mcu_fd_io__asig_5p0 (analog inputs)
+gf180mcu_fd_io__bi_t (digital outputs)
+
+Below is the layout connection for the VDD pin (gf180mcu_fd_io__dvdd).
+<p align="center">
+   <img src="./img/VDD_pin_connection.png" width="600" />
+</p>  
