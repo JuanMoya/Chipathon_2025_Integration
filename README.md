@@ -53,12 +53,27 @@ Follows a description of the main pin cells used in Bracolin and some examples f
 Configuration for each of the pin cells provided for GlobalFoundries GF180MCU PDK are [here](https://gf180mcu-pdk.readthedocs.io/en/latest/IPs/IO/gf180mcu_fd_io/functional.html). All the I/O cells include ESD protections.
 
 Some of the main cells included in Bracolin are:
-gf180mcu_fd_io__dvdd
-gf180mcu_fd_io__dvss
-gf180mcu_fd_io__asig_5p0 (analog inputs)
-gf180mcu_fd_io__bi_t (digital outputs)
+- gf180mcu_fd_io__dvdd
+- gf180mcu_fd_io__dvss
+- gf180mcu_fd_io__asig_5p0 (analog inputs)
+- gf180mcu_fd_io__bi_t (digital outputs)
 
 Below is the layout connection for the VDD pin (gf180mcu_fd_io__dvdd).
 <p align="center">
    <img src="./img/VDD_pin_connection.png" width="600" />
 </p>  
+
+Then, the layout connection for the VSS pin (gf180mcu_fd_io__dvss).
+<p align="center">
+   <img src="./img/VSS_pin_connection.png" width="600" />
+</p> 
+
+Follows the layout connection for the Analog input pin (gf180mcu_fd_io__asig_5p0).
+<p align="center">
+   <img src="./img/analog_pin_connection.png" width="600" />
+</p> 
+
+Finally, the layout connection for the Digital inputs and outputs (gf180mcu_fd_io__bi_t).
+<p align="center">
+   <img src="./img/digital_pin_connection_1.png" width="600" />
+</p> 
